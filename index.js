@@ -53,7 +53,6 @@ exports.serviceNowProxy = async (req, res) => {
     // Create request data for POST body
     const data = {
       query: query,
-      table: table,
       fields: fields
     };
     
