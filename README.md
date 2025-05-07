@@ -23,7 +23,6 @@ Send a POST request to the deployed function URL with the following JSON body:
 ```json
 {
   "query": "search term",
-  "table": "kb_knowledge",
   "fields": [
     "title",
     "short_description",
